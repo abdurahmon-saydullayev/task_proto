@@ -1,7 +1,7 @@
 syntax="proto3";
 
-package author_service;
-option go_package="genproto/author_service";
+package blogpost_service;
+option go_package="genproto/blogpost_service";
 
 import "google/protobuf/empty.proto";
 import "author.proto";
