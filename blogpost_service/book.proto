@@ -2,16 +2,17 @@ syntax="proto3";
 
 package blogpost_service;
 option go_package="genproto/blogpost_service";
+import "author.proto";
+
 
 message Book {
     string id = 1;
     string name = 2;
     float price = 3;
     string author_id = 4;
-    string first_name = 5;
-    string last_name = 6;
-    string created_at = 7;
-    string updated_at = 8;
+    string created_at = 5;
+    string updated_at = 6;
+    Author author = 7;
 }
 
 message CreateBook {
