@@ -8,8 +8,10 @@ message Book {
     string name = 2;
     float price = 3;
     string author_id = 4;
-    string created_at = 5;
-    string updated_at = 6;
+    string first_name = 5;
+    string last_name = 6;
+    string created_at = 7;
+    string updated_at = 8;
 }
 
 message CreateBook {
